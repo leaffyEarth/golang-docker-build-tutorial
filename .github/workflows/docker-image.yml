@@ -10,8 +10,8 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
-    env:
+        runs-on: monkci-runners-8vcpu
+            env:
       PROJECT_VERSION: 1.0.0-alpha
 
     steps:
